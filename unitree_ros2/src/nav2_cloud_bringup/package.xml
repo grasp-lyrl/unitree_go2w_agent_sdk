@@ -1,0 +1,24 @@
+<package format="3">
+  <name>nav2_cloud_bringup</name>
+  <version>0.0.1</version>
+  <description>Nav2 bringup configured to use Faster-LIO point clouds</description>
+  <maintainer email="yifei@example.com">yifei</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_costmap_2d</exec_depend>
+  <exec_depend>nav2_controller</exec_depend>
+  <exec_depend>nav2_planner</exec_depend>
+  <exec_depend>nav2_bt_navigator</exec_depend>
+  <exec_depend>nav2_waypoint_follower</exec_depend>
+  <exec_depend>nav2_behavior_tree</exec_depend>
+  <exec_depend>odom_to_tf</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
