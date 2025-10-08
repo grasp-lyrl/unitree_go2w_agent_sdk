@@ -1,0 +1,65 @@
+# Unitree Go Robot Configuration
+# Set to true/false to enable/disable specific modules
+
+# Core Infrastructure (always required)
+core_infrastructure:
+  ros1_core: true
+  ros_bridge: true
+
+# ROS2 Systems
+realsense:
+  enabled: true
+
+yolo:
+  enabled: true
+  model_weights: "/home/unitree/yolo_ws/yolov9c-seg.pt"
+  device: "cpu"  # Changed from cuda:0 to cpu to avoid GPU memory issues
+  input_image_topic: "/camera/color/image_raw"
+  image_reliability: 1
+  threshold: 0.4
+  # Additional YOLO configuration
+  workspace: "/home/unitree/yolo_ws"
+  launch_file: "yolov9.launch.py"
+
+# Arm Module (Joint-Relay + Piper Arm)
+arm_module:
+  enabled: false
+
+# LiDAR Driver
+lidar_driver:
+  enabled: false
+  driver: "hesai_ros_driver_node"
+
+# SLAM (Faster-LIO)
+slam:
+  enabled: false
+  algorithm: "faster_lio"
+  launch_file: "mapping_hesai.launch"
+  rviz: false
+
+# Navigation
+navigation:
+  enabled: false
+  params_file: "src/nav2_cloud_bringup/launch/nav2_params_online_fasterlio.yaml"
+
+# Message Converters
+message_converters:
+  imu_converter: true
+  tf_publishers: true
+
+# Launch Delays (seconds)
+delays:
+  ros_bridge: 3
+  ros2_systems: 5
+  imu_converter: 2
+  tf_publishers: 1
+  joint_relay: 1
+  lidar_driver: 2
+  slam: 3
+  navigation: 5
+
+# Log Filtering
+log_filtering:
+  enabled: true
+  suppress_verbose_logs: true
+  suppress_timestamps: true
