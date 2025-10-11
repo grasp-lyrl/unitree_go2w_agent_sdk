@@ -1,0 +1,218 @@
+[0.378s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cyclonedds']
+[0.378s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ea011f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['cyclonedds'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ea011f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e92ddf0>)
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.466s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/unitree/unitree_ros2/cyclonedds_ws'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cyclonedds' with type 'ros.cmake' and name 'cyclonedds'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_cyclonedds/rmw_cyclonedds_cpp' with type 'ros.ament_cmake' and name 'rmw_cyclonedds_cpp'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ros'
+[0.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.555s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cyclonedds' from colcon.pkg: {'cmake-args': ['-DBUILD_IDLC=AUTO']}
+[0.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'unitree_api' in 'src/unitree/unitree_api'
+[0.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'unitree_go' in 'src/unitree/unitree_go'
+[0.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'unitree_hg' in 'src/unitree/unitree_hg'
+[0.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rmw_cyclonedds_cpp' in 'src/rmw_cyclonedds/rmw_cyclonedds_cpp'
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:overwrite package 'cyclonedds' build argument 'cmake_args' from package metadata with '['-DBUILD_IDLC=AUTO']' (before: 'None')
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'cyclonedds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_IDLC=AUTO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds', 'symlink_install': False, 'test_result_base': None}
+[0.563s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.565s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds' with build type 'cmake'
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds'
+[0.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds
+[4.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds
+[4.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+[45.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+[45.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[45.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[45.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path')
+[45.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.ps1'
+[45.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.dsv'
+[45.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.sh'
+[45.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path_multiarch')
+[45.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.ps1'
+[45.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.dsv'
+[45.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.sh'
+[45.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyclonedds)
+[45.447s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds' for CMake module files
+[45.448s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds' for CMake config files
+[45.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'cmake_prefix_path')
+[45.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.ps1'
+[45.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.dsv'
+[45.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.sh'
+[45.452s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib'
+[45.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'ld_library_path_lib')
+[45.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.ps1'
+[45.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.dsv'
+[45.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.sh'
+[45.455s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin'
+[45.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'path')
+[45.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.ps1'
+[45.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.dsv'
+[45.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.sh'
+[45.458s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig/cyclonedds.pc'
+[45.459s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/python3.8/site-packages'
+[45.460s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin'
+[45.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pythonscriptspath')
+[45.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.ps1'
+[45.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.dsv'
+[45.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.sh'
+[45.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.ps1'
+[45.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.dsv'
+[45.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.sh'
+[45.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.bash'
+[45.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.zsh'
+[45.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/colcon-core/packages/cyclonedds)
+[45.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.474s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.486s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.509s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[45.509s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.ps1'
+[45.512s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/unitree_ros2/cyclonedds_ws/install/_local_setup_util_ps1.py'
+[45.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.ps1'
+[45.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.sh'
+[45.517s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/unitree_ros2/cyclonedds_ws/install/_local_setup_util_sh.py'
+[45.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.sh'
+[45.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.bash'
+[45.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.bash'
+[45.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.zsh'
+[45.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.zsh'

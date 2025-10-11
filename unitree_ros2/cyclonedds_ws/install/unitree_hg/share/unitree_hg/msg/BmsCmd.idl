@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_hg/msg/BmsCmd.msg
+// generated code does not contain a copyright notice
+
+
+module unitree_hg {
+  module msg {
+    typedef uint8 uint8__40[40];
+    struct BmsCmd {
+      uint8 cmd;
+
+      uint8__40 reserve;
+    };
+  };
+};

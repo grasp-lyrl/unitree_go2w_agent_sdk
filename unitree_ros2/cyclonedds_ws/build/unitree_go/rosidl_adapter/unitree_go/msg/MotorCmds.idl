@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_go/msg/MotorCmds.msg
+// generated code does not contain a copyright notice
+
+#include "unitree_go/msg/MotorCmd.idl"
+
+module unitree_go {
+  module msg {
+    struct MotorCmds {
+      sequence<unitree_go::msg::MotorCmd> cmds;
+    };
+  };
+};

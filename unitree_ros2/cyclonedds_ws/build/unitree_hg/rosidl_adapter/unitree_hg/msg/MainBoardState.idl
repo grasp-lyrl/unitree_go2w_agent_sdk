@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_hg/msg/MainBoardState.msg
+// generated code does not contain a copyright notice
+
+
+module unitree_hg {
+  module msg {
+    typedef uint16 uint16__6[6];
+    typedef int16 int16__6[6];
+    typedef float float__6[6];
+    typedef uint32 uint32__6[6];
+    struct MainBoardState {
+      uint16__6 fan_state;
+
+      int16__6 temperature;
+
+      float__6 value;
+
+      uint32__6 state;
+    };
+  };
+};

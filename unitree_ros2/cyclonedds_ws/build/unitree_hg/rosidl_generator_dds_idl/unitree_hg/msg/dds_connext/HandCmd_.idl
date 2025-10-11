@@ -1,0 +1,31 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from unitree_hg:msg/HandCmd.idl
+// generated code does not contain a copyright notice
+#include "unitree_hg/msg/dds_connext/MotorCmd_.idl"
+
+#ifndef __unitree_hg__msg__hand_cmd__idl__
+#define __unitree_hg__msg__hand_cmd__idl__
+
+
+module unitree_hg {
+
+module msg {
+
+module dds_ {
+
+
+struct HandCmd_ {
+sequence<unitree_hg::msg::dds_::MotorCmd_> motor_cmd_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module unitree_hg
+
+
+#endif  // __unitree_hg__msg__hand_cmd__idl__

@@ -1,0 +1,889 @@
+[0.042s] Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go
+[0.177s] -- The C compiler identification is GNU 9.4.0
+[0.299s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.459s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.461s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.723s] -- Detecting C compile features
+[0.723s] -- Detecting C compile features - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++
+[0.990s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.992s] -- Detecting CXX compiler ABI info
+[1.186s] -- Detecting CXX compiler ABI info - done
+[1.211s] -- Detecting CXX compile features
+[1.212s] -- Detecting CXX compile features - done
+[1.217s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.277s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.896s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.963s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.136s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.201s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.532s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.556s] -- Found rosidl_generator_dds_idl: 0.7.1 (/opt/ros/foxy/share/rosidl_generator_dds_idl/cmake)
+[2.623s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.302s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.110s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.110s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.224s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.224s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.225s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.225s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.370s] -- Found PythonExtra: .so  
+[5.362s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.447s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.454s] -- Added test 'lint_cmake' to check CMake code style
+[5.462s] -- Added test 'xmllint' to check XML markup files
+[5.486s] -- Configuring done
+[6.099s] -- Generating done
+[6.255s] -- Build files have been written to: /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go
+[6.336s] Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go
+[6.338s] Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go -- -j4 -l4
+[6.775s] [35m[1mScanning dependencies of target unitree_go__cpp[0m
+[6.802s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.804s] [35m[1mScanning dependencies of target unitree_go__dds_connext_idl[0m
+[6.872s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.922s] [  1%] [34m[1mGenerating DDS interfaces[0m
+[14.930s] [  1%] Built target unitree_go__dds_connext_idl
+[25.669s] [  1%] Built target unitree_go__cpp
+[26.211s] [35m[1mScanning dependencies of target unitree_go__rosidl_generator_c[0m
+[26.369s] [  1%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/audio_data__functions.c.o[0m
+[26.690s] [  2%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_cmd__functions.c.o[0m
+[26.884s] [  2%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_state__functions.c.o[0m
+[27.144s] [  3%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/error__functions.c.o[0m
+[27.343s] [  3%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/go2_front_video_data__functions.c.o[0m
+[27.642s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/height_map__functions.c.o[0m
+[27.954s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/imu_state__functions.c.o[0m
+[28.259s] [  5%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/interface_config__functions.c.o[0m
+[28.579s] [  5%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/lidar_state__functions.c.o[0m
+[28.863s] [  6%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_cmd__functions.c.o[0m
+[29.156s] [  6%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_state__functions.c.o[0m
+[29.439s] [  6%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmd__functions.c.o[0m
+[29.711s] [  7%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmds__functions.c.o[0m
+[29.943s] [  7%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_state__functions.c.o[0m
+[30.192s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_states__functions.c.o[0m
+[30.446s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/path_point__functions.c.o[0m
+[30.627s] [  9%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/req__functions.c.o[0m
+[30.872s] [  9%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/res__functions.c.o[0m
+[31.089s] [ 10%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_cmd__functions.c.o[0m
+[31.362s] [ 10%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_state__functions.c.o[0m
+[31.618s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/time_spec__functions.c.o[0m
+[31.833s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_state__functions.c.o[0m
+[32.099s] [ 12%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_switch__functions.c.o[0m
+[32.274s] [ 12%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/wireless_controller__functions.c.o[0m
+[32.430s] [ 13%] [32m[1mLinking C shared library libunitree_go__rosidl_generator_c.so[0m
+[32.656s] [ 13%] Built target unitree_go__rosidl_generator_c
+[32.736s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.566s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_cpp[0m
+[36.629s] [ 14%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/audio_data__type_support.cpp.o[0m
+[37.435s] [ 15%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_cmd__type_support.cpp.o[0m
+[38.042s] [ 15%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_state__type_support.cpp.o[0m
+[38.672s] [ 16%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/error__type_support.cpp.o[0m
+[39.268s] [ 16%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.cpp.o[0m
+[39.968s] [ 17%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/height_map__type_support.cpp.o[0m
+[40.661s] [ 17%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/imu_state__type_support.cpp.o[0m
+[41.283s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/interface_config__type_support.cpp.o[0m
+[41.894s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/lidar_state__type_support.cpp.o[0m
+[42.526s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_cmd__type_support.cpp.o[0m
+[43.236s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_state__type_support.cpp.o[0m
+[43.966s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmd__type_support.cpp.o[0m
+[44.605s] [ 20%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmds__type_support.cpp.o[0m
+[45.441s] [ 20%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_state__type_support.cpp.o[0m
+[46.172s] [ 21%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_states__type_support.cpp.o[0m
+[47.032s] [ 21%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/path_point__type_support.cpp.o[0m
+[47.631s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/req__type_support.cpp.o[0m
+[48.215s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/res__type_support.cpp.o[0m
+[48.885s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.cpp.o[0m
+[49.527s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_state__type_support.cpp.o[0m
+[50.171s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/time_spec__type_support.cpp.o[0m
+[50.753s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_state__type_support.cpp.o[0m
+[51.357s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_switch__type_support.cpp.o[0m
+[51.938s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/wireless_controller__type_support.cpp.o[0m
+[52.612s] [ 26%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_introspection_cpp.so[0m
+[52.802s] [ 26%] Built target unitree_go__rosidl_typesupport_introspection_cpp
+[52.825s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[55.715s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_c[0m
+[55.767s] [ 26%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/audio_data__type_support.c.o[0m
+[55.841s] [ 27%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/bms_cmd__type_support.c.o[0m
+[55.913s] [ 27%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/bms_state__type_support.c.o[0m
+[55.985s] [ 28%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/error__type_support.c.o[0m
+[56.055s] [ 28%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/go2_front_video_data__type_support.c.o[0m
+[56.123s] [ 29%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/height_map__type_support.c.o[0m
+[56.189s] [ 29%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/imu_state__type_support.c.o[0m
+[56.253s] [ 30%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/interface_config__type_support.c.o[0m
+[56.313s] [ 30%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/lidar_state__type_support.c.o[0m
+[56.378s] [ 31%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/low_cmd__type_support.c.o[0m
+[56.446s] [ 31%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/low_state__type_support.c.o[0m
+[56.515s] [ 32%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_cmd__type_support.c.o[0m
+[56.577s] [ 32%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_cmds__type_support.c.o[0m
+[56.645s] [ 32%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_state__type_support.c.o[0m
+[56.710s] [ 33%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_states__type_support.c.o[0m
+[56.775s] [ 33%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/path_point__type_support.c.o[0m
+[56.838s] [ 34%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/req__type_support.c.o[0m
+[56.903s] [ 34%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/res__type_support.c.o[0m
+[56.969s] [ 35%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/sport_mode_cmd__type_support.c.o[0m
+[57.038s] [ 35%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/sport_mode_state__type_support.c.o[0m
+[57.106s] [ 36%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/time_spec__type_support.c.o[0m
+[57.177s] [ 36%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/uwb_state__type_support.c.o[0m
+[57.245s] [ 37%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/uwb_switch__type_support.c.o[0m
+[57.307s] [ 37%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/wireless_controller__type_support.c.o[0m
+[57.370s] [ 38%] [32m[1mLinking C shared library libunitree_go__rosidl_typesupport_introspection_c.so[0m
+[57.441s] [ 38%] Built target unitree_go__rosidl_typesupport_introspection_c
+[57.464s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[59.531s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_c[0m
+[59.566s] [ 38%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/audio_data__type_support.cpp.o[0m
+[59.625s] [ 39%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/bms_cmd__type_support.cpp.o[0m
+[59.683s] [ 39%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/bms_state__type_support.cpp.o[0m
+[59.742s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/error__type_support.cpp.o[0m
+[59.801s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/go2_front_video_data__type_support.cpp.o[0m
+[59.860s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/height_map__type_support.cpp.o[0m
+[59.925s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/imu_state__type_support.cpp.o[0m
+[59.985s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/interface_config__type_support.cpp.o[0m
+[60.044s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/lidar_state__type_support.cpp.o[0m
+[60.105s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/low_cmd__type_support.cpp.o[0m
+[60.164s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/low_state__type_support.cpp.o[0m
+[60.228s] [ 44%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_cmd__type_support.cpp.o[0m
+[60.291s] [ 44%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_cmds__type_support.cpp.o[0m
+[60.351s] [ 44%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_state__type_support.cpp.o[0m
+[60.413s] [ 45%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_states__type_support.cpp.o[0m
+[60.472s] [ 45%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/path_point__type_support.cpp.o[0m
+[60.530s] [ 46%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/req__type_support.cpp.o[0m
+[60.595s] [ 46%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/res__type_support.cpp.o[0m
+[60.659s] [ 47%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/sport_mode_cmd__type_support.cpp.o[0m
+[60.721s] [ 47%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/sport_mode_state__type_support.cpp.o[0m
+[60.780s] [ 48%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/time_spec__type_support.cpp.o[0m
+[60.840s] [ 48%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/uwb_state__type_support.cpp.o[0m
+[60.900s] [ 49%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/uwb_switch__type_support.cpp.o[0m
+[60.959s] [ 49%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/wireless_controller__type_support.cpp.o[0m
+[61.019s] [ 50%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_c.so[0m
+[61.104s] [ 50%] Built target unitree_go__rosidl_typesupport_c
+[61.126s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[63.135s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_cpp[0m
+[63.176s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/audio_data__type_support.cpp.o[0m
+[63.176s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_cmd__type_support.cpp.o[0m
+[63.757s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_state__type_support.cpp.o[0m
+[63.844s] [ 53%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/error__type_support.cpp.o[0m
+[64.341s] [ 53%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/go2_front_video_data__type_support.cpp.o[0m
+[64.423s] [ 54%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/height_map__type_support.cpp.o[0m
+[65.002s] [ 54%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/imu_state__type_support.cpp.o[0m
+[65.010s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/interface_config__type_support.cpp.o[0m
+[65.584s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/lidar_state__type_support.cpp.o[0m
+[65.686s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_cmd__type_support.cpp.o[0m
+[66.168s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_state__type_support.cpp.o[0m
+[66.277s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmd__type_support.cpp.o[0m
+[66.767s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmds__type_support.cpp.o[0m
+[66.854s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_state__type_support.cpp.o[0m
+[67.432s] [ 58%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_states__type_support.cpp.o[0m
+[67.442s] [ 58%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/path_point__type_support.cpp.o[0m
+[68.013s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/req__type_support.cpp.o[0m
+[68.110s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/res__type_support.cpp.o[0m
+[68.111s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_cmd__type_support.cpp.o[0m
+[68.608s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_state__type_support.cpp.o[0m
+[68.717s] [ 61%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/time_spec__type_support.cpp.o[0m
+[68.816s] [ 61%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_state__type_support.cpp.o[0m
+[69.214s] [ 62%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_switch__type_support.cpp.o[0m
+[69.318s] [ 62%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/wireless_controller__type_support.cpp.o[0m
+[69.898s] [ 63%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_cpp.so[0m
+[69.983s] [ 63%] Built target unitree_go__rosidl_typesupport_cpp
+[70.006s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[72.661s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_cpp[0m
+[72.713s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o[0m
+[72.714s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o[0m
+[72.714s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[72.735s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/error__type_support.cpp.o[0m
+[73.650s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/go2_front_video_data__type_support.cpp.o[0m
+[73.678s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/height_map__type_support.cpp.o[0m
+[73.785s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o[0m
+[73.827s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/interface_config__type_support.cpp.o[0m
+[74.643s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/lidar_state__type_support.cpp.o[0m
+[74.723s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o[0m
+[74.751s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/low_state__type_support.cpp.o[0m
+[74.915s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[75.682s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_cmds__type_support.cpp.o[0m
+[75.745s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[75.791s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_states__type_support.cpp.o[0m
+[75.848s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/path_point__type_support.cpp.o[0m
+[76.676s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/req__type_support.cpp.o[0m
+[76.735s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/res__type_support.cpp.o[0m
+[76.754s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/sport_mode_cmd__type_support.cpp.o[0m
+[76.959s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/sport_mode_state__type_support.cpp.o[0m
+[77.578s] [ 74%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/time_spec__type_support.cpp.o[0m
+[77.696s] [ 74%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/uwb_state__type_support.cpp.o[0m
+[77.771s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/uwb_switch__type_support.cpp.o[0m
+[78.099s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/wireless_controller__type_support.cpp.o[0m
+[79.094s] [ 76%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_fastrtps_cpp.so[0m
+[79.278s] [ 76%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp
+[79.301s] [ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[82.265s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_c[0m
+[82.335s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/audio_data__type_support_c.cpp.o[0m
+[82.335s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/bms_cmd__type_support_c.cpp.o[0m
+[83.059s] [ 78%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/error__type_support_c.cpp.o[0m
+[83.065s] [ 78%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/go2_front_video_data__type_support_c.cpp.o[0m
+[83.084s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/height_map__type_support_c.cpp.o[0m
+[83.801s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/bms_state__type_support_c.cpp.o[0m
+[83.850s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/imu_state__type_support_c.cpp.o[0m
+[83.955s] [ 80%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/interface_config__type_support_c.cpp.o[0m
+[84.570s] [ 80%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/lidar_state__type_support_c.cpp.o[0m
+[84.597s] [ 81%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/low_cmd__type_support_c.cpp.o[0m
+[84.826s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/low_state__type_support_c.cpp.o[0m
+[84.826s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[85.377s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_state__type_support_c.cpp.o[0m
+[85.378s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_cmds__type_support_c.cpp.o[0m
+[85.702s] [ 83%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_states__type_support_c.cpp.o[0m
+[85.748s] [ 83%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/path_point__type_support_c.cpp.o[0m
+[86.148s] [ 84%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/req__type_support_c.cpp.o[0m
+[86.171s] [ 84%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/res__type_support_c.cpp.o[0m
+[86.487s] [ 85%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/sport_mode_cmd__type_support_c.cpp.o[0m
+[86.682s] [ 85%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/sport_mode_state__type_support_c.cpp.o[0m
+[86.930s] [ 86%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/time_spec__type_support_c.cpp.o[0m
+[86.965s] [ 86%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/uwb_state__type_support_c.cpp.o[0m
+[87.307s] [ 87%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/uwb_switch__type_support_c.cpp.o[0m
+[87.636s] [ 87%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/wireless_controller__type_support_c.cpp.o[0m
+[88.460s] [ 88%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_fastrtps_c.so[0m
+[88.635s] [ 88%] Built target unitree_go__rosidl_typesupport_fastrtps_c
+[88.655s] [35m[1mScanning dependencies of target unitree_go[0m
+[88.676s] [ 88%] Built target unitree_go
+[88.697s] [35m[1mScanning dependencies of target unitree_go__py[0m
+[88.721s] [ 89%] [34m[1mGenerating Python code for ROS interfaces[0m
+[94.116s] [ 89%] Built target unitree_go__py
+[94.137s] [35m[1mScanning dependencies of target unitree_go__python[0m
+[94.246s] [ 90%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_bms_cmd_s.c.o[0m
+[94.247s] [ 90%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_audio_data_s.c.o[0m
+[94.252s] [ 91%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_error_s.c.o[0m
+[94.253s] [ 91%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_bms_state_s.c.o[0m
+[94.448s] [ 91%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_go2_front_video_data_s.c.o[0m
+[94.463s] [ 92%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_height_map_s.c.o[0m
+[94.513s] [ 92%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_imu_state_s.c.o[0m
+[94.629s] [ 93%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_interface_config_s.c.o[0m
+[94.719s] [ 93%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_lidar_state_s.c.o[0m
+[94.746s] [ 94%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_low_cmd_s.c.o[0m
+[94.803s] [ 94%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_low_state_s.c.o[0m
+[94.937s] [ 94%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_motor_cmd_s.c.o[0m
+[94.955s] [ 95%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_motor_cmds_s.c.o[0m
+[94.981s] [ 95%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_motor_state_s.c.o[0m
+[95.118s] [ 96%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_motor_states_s.c.o[0m
+[95.154s] [ 96%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_path_point_s.c.o[0m
+[95.180s] [ 97%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_req_s.c.o[0m
+[95.191s] [ 97%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_res_s.c.o[0m
+[95.303s] [ 98%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_cmd_s.c.o[0m
+[95.342s] [ 98%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_state_s.c.o[0m
+[95.392s] [ 99%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_time_spec_s.c.o[0m
+[95.400s] [ 99%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_uwb_state_s.c.o[0m
+[95.525s] [100%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_uwb_switch_s.c.o[0m
+[95.574s] [100%] [32mBuilding C object CMakeFiles/unitree_go__python.dir/rosidl_generator_py/unitree_go/msg/_wireless_controller_s.c.o[0m
+[95.748s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/libunitree_go__python.so[0m
+[95.846s] [100%] Built target unitree_go__python
+[95.865s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_c__pyext[0m
+[95.866s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_c__pyext[0m
+[95.866s] [35m[1mScanning dependencies of target unitree_go__rosidl_typesupport_c__pyext[0m
+[95.913s] [100%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[95.913s] [100%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_c.c.o[0m
+[95.932s] [100%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[96.204s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[96.218s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[96.294s] [100%] Built target unitree_go__rosidl_typesupport_introspection_c__pyext
+[96.294s] [100%] Built target unitree_go__rosidl_typesupport_c__pyext
+[96.296s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[96.425s] [100%] Built target unitree_go__rosidl_typesupport_fastrtps_c__pyext
+[96.450s] Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go -- -j4 -l4
+[96.456s] Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go
+[96.476s] -- Install configuration: ""
+[96.476s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/ament_index/resource_index/rosidl_interfaces/unitree_go
+[96.476s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/rosidl_generator_c__visibility_control.h
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/path_point.h
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/imu_state.h
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_cmd.h
+[96.477s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/bms_state.h
+[96.478s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/interface_config.h
+[96.478s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/time_spec.h
+[96.478s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/bms_cmd.h
+[96.478s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/height_map.h
+[96.478s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/uwb_switch.h
+[96.479s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/res.h
+[96.479s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/sport_mode_cmd.h
+[96.479s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/audio_data.h
+[96.479s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_cmds.h
+[96.479s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/lidar_state.h
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/go2_front_video_data.h
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/uwb_state.h
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_state.h
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/req.h
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.480s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__functions.h
+[96.481s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__functions.h
+[96.481s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__struct.h
+[96.481s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__functions.h
+[96.481s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__functions.h
+[96.481s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__functions.c
+[96.482s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__functions.c
+[96.482s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__functions.c
+[96.482s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__type_support.h
+[96.482s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__functions.h
+[96.482s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__type_support.h
+[96.483s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__struct.h
+[96.483s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__struct.h
+[96.483s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__functions.h
+[96.483s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__functions.c
+[96.483s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__struct.h
+[96.484s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__struct.h
+[96.484s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__struct.h
+[96.484s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__type_support.h
+[96.484s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__functions.c
+[96.484s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__functions.c
+[96.485s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__functions.h
+[96.485s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__functions.h
+[96.485s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__struct.h
+[96.485s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__functions.h
+[96.485s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__type_support.h
+[96.486s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__type_support.h
+[96.486s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__type_support.h
+[96.486s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__functions.h
+[96.487s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__functions.h
+[96.487s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__functions.c
+[96.487s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__functions.h
+[96.487s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__functions.c
+[96.487s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__type_support.h
+[96.488s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__functions.c
+[96.488s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__struct.h
+[96.488s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__functions.c
+[96.488s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__functions.h
+[96.488s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__functions.c
+[96.489s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__functions.c
+[96.489s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__struct.h
+[96.489s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__struct.h
+[96.489s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__struct.h
+[96.489s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__functions.h
+[96.490s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__struct.h
+[96.490s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__struct.h
+[96.490s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__type_support.h
+[96.490s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__functions.c
+[96.490s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__type_support.h
+[96.491s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__functions.h
+[96.491s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__struct.h
+[96.491s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__struct.h
+[96.491s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__type_support.h
+[96.491s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__type_support.h
+[96.492s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__functions.c
+[96.492s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__struct.h
+[96.492s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__struct.h
+[96.492s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__struct.h
+[96.492s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__functions.h
+[96.493s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__functions.h
+[96.493s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__struct.h
+[96.493s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__functions.h
+[96.493s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__type_support.h
+[96.493s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__struct.h
+[96.494s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__type_support.h
+[96.494s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__functions.c
+[96.494s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__type_support.h
+[96.494s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__functions.c
+[96.494s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__functions.h
+[96.495s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__type_support.h
+[96.495s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__type_support.h
+[96.495s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__functions.h
+[96.495s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__type_support.h
+[96.495s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__type_support.h
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__functions.h
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__struct.h
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__struct.h
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__functions.c
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__type_support.h
+[96.496s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__functions.c
+[96.497s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__functions.c
+[96.497s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__type_support.h
+[96.497s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__type_support.h
+[96.497s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__type_support.h
+[96.497s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__functions.c
+[96.498s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__struct.h
+[96.498s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__type_support.h
+[96.498s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__functions.c
+[96.498s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__functions.c
+[96.498s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__functions.c
+[96.499s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__type_support.h
+[96.499s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__functions.h
+[96.499s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__functions.h
+[96.499s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__functions.h
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__struct.h
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__functions.c
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_states.h
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/wireless_controller.h
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/sport_mode_state.h
+[96.500s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/error.h
+[96.501s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/low_state.h
+[96.501s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/low_cmd.h
+[96.501s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/library_path.sh
+[96.502s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/library_path.dsv
+[96.502s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+[96.503s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so" to ""
+[96.503s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.504s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.504s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[96.505s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.505s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[96.505s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_c.h
+[96.505s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_c.h
+[96.505s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_c.h
+[96.506s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[96.506s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[96.506s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h
+[96.506s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_c.h
+[96.506s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_c.h
+[96.507s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h
+[96.508s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[96.509s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[96.509s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_c.h
+[96.509s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_c.h
+[96.509s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+[96.510s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so" to ""
+[96.510s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.510s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.511s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[96.511s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.511s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.512s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[96.512s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_cpp.hpp
+[96.512s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.512s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_cpp.hpp
+[96.512s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[96.513s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[96.514s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.514s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_cpp.hpp
+[96.514s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[96.514s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_cpp.hpp
+[96.514s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[96.515s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[96.516s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/dds_fastrtps
+[96.516s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[96.516s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+[96.517s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so" to ""
+[96.517s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.517s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.517s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[96.518s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.518s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__type_support.c
+[96.518s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__type_support.c
+[96.518s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__type_support.c
+[96.518s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_c.h
+[96.518s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__type_support.c
+[96.519s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__type_support.c
+[96.519s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_c.h
+[96.519s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_c.h
+[96.519s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[96.519s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__type_support.c
+[96.520s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__type_support.c
+[96.520s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__type_support.c
+[96.520s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__type_support.c
+[96.520s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[96.520s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__rosidl_typesupport_introspection_c.h
+[96.521s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_c.h
+[96.521s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__type_support.c
+[96.521s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_c.h
+[96.521s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[96.521s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__type_support.c
+[96.522s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[96.522s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__rosidl_typesupport_introspection_c.h
+[96.522s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_c.h
+[96.522s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__type_support.c
+[96.522s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__type_support.c
+[96.523s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_c.h
+[96.523s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__type_support.c
+[96.523s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[96.523s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__type_support.c
+[96.523s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__type_support.c
+[96.524s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__type_support.c
+[96.524s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__type_support.c
+[96.524s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[96.524s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__type_support.c
+[96.524s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__type_support.c
+[96.525s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_c.h
+[96.525s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[96.525s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__type_support.c
+[96.525s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__type_support.c
+[96.525s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_c.h
+[96.526s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[96.526s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_c.h
+[96.526s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[96.526s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__rosidl_typesupport_introspection_c.h
+[96.527s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_c.h
+[96.527s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__type_support.c
+[96.527s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__type_support.c
+[96.527s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_c.h
+[96.528s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+[96.528s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so" to ""
+[96.529s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+[96.529s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so" to ""
+[96.530s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.530s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.530s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/path_point.hpp
+[96.530s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/audio_data.hpp
+[96.530s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_state.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_states.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/lidar_state.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/imu_state.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/go2_front_video_data.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_cmd.hpp
+[96.531s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/low_state.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/height_map.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/sport_mode_state.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/wireless_controller.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/bms_cmd.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/bms_state.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/res.hpp
+[96.532s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/sport_mode_cmd.hpp
+[96.533s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/low_cmd.hpp
+[96.533s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/interface_config.hpp
+[96.533s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/req.hpp
+[96.533s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/error.hpp
+[96.533s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.534s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__builder.hpp
+[96.534s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__builder.hpp
+[96.534s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__struct.hpp
+[96.534s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__builder.hpp
+[96.535s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__traits.hpp
+[96.535s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__struct.hpp
+[96.535s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__builder.hpp
+[96.535s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__builder.hpp
+[96.535s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__builder.hpp
+[96.536s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__builder.hpp
+[96.536s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__builder.hpp
+[96.536s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__builder.hpp
+[96.536s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__type_support.hpp
+[96.536s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__traits.hpp
+[96.537s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+[96.537s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__struct.hpp
+[96.537s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__builder.hpp
+[96.537s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__type_support.hpp
+[96.537s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__builder.hpp
+[96.538s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__struct.hpp
+[96.538s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__type_support.hpp
+[96.538s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__type_support.hpp
+[96.538s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__type_support.hpp
+[96.538s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__traits.hpp
+[96.539s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__traits.hpp
+[96.539s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__struct.hpp
+[96.539s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__struct.hpp
+[96.539s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__type_support.hpp
+[96.539s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__type_support.hpp
+[96.540s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__builder.hpp
+[96.540s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__type_support.hpp
+[96.540s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__traits.hpp
+[96.540s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__traits.hpp
+[96.540s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__traits.hpp
+[96.541s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__struct.hpp
+[96.541s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__traits.hpp
+[96.541s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__builder.hpp
+[96.541s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
+[96.541s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__traits.hpp
+[96.542s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__type_support.hpp
+[96.542s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__struct.hpp
+[96.542s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__struct.hpp
+[96.542s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__struct.hpp
+[96.543s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__builder.hpp
+[96.543s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__builder.hpp
+[96.543s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
+[96.543s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__struct.hpp
+[96.543s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__type_support.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__type_support.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__struct.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__struct.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__traits.hpp
+[96.544s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__traits.hpp
+[96.545s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__traits.hpp
+[96.545s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__type_support.hpp
+[96.545s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__struct.hpp
+[96.545s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__builder.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__builder.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__struct.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__builder.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__builder.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__type_support.hpp
+[96.546s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__builder.hpp
+[96.547s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__type_support.hpp
+[96.547s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__traits.hpp
+[96.547s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__traits.hpp
+[96.547s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__traits.hpp
+[96.547s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__traits.hpp
+[96.548s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__struct.hpp
+[96.548s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__struct.hpp
+[96.548s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__type_support.hpp
+[96.548s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__struct.hpp
+[96.548s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__type_support.hpp
+[96.549s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__builder.hpp
+[96.549s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__type_support.hpp
+[96.549s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__traits.hpp
+[96.549s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__builder.hpp
+[96.549s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__struct.hpp
+[96.550s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__traits.hpp
+[96.550s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__traits.hpp
+[96.550s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__struct.hpp
+[96.550s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__type_support.hpp
+[96.550s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__traits.hpp
+[96.551s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__builder.hpp
+[96.551s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__traits.hpp
+[96.551s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__struct.hpp
+[96.551s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__traits.hpp
+[96.551s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__type_support.hpp
+[96.552s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__struct.hpp
+[96.552s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__type_support.hpp
+[96.552s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__struct.hpp
+[96.552s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__builder.hpp
+[96.552s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__struct.hpp
+[96.553s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__type_support.hpp
+[96.553s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__type_support.hpp
+[96.553s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/rosidl_generator_cpp__visibility_control.hpp
+[96.553s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/motor_cmds.hpp
+[96.553s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/uwb_state.hpp
+[96.554s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/uwb_switch.hpp
+[96.554s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/time_spec.hpp
+[96.554s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go
+[96.554s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg
+[96.555s] -- Up-to-date: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail
+[96.555s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_cpp.hpp
+[96.555s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__type_support.cpp
+[96.555s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__type_support.cpp
+[96.555s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__type_support.cpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__rosidl_typesupport_introspection_cpp.hpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_cpp.hpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmd__type_support.cpp
+[96.556s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__type_support.cpp
+[96.557s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__type_support.cpp
+[96.557s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_cpp.hpp
+[96.557s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__type_support.cpp
+[96.557s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_cpp.hpp
+[96.557s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_cpp.hpp
+[96.558s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__type_support.cpp
+[96.558s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/wireless_controller__type_support.cpp
+[96.558s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__type_support.cpp
+[96.558s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__type_support.cpp
+[96.558s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/res__type_support.cpp
+[96.559s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_cpp.hpp
+[96.559s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__type_support.cpp
+[96.559s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__type_support.cpp
+[96.559s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[96.560s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__type_support.cpp
+[96.560s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/req__rosidl_typesupport_introspection_cpp.hpp
+[96.560s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__type_support.cpp
+[96.560s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_cpp.hpp
+[96.560s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_cmds__type_support.cpp
+[96.561s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[96.561s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__type_support.cpp
+[96.561s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_cpp.hpp
+[96.561s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_states__type_support.cpp
+[96.561s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_cmd__type_support.cpp
+[96.562s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[96.562s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_cpp.hpp
+[96.562s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[96.562s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_cpp.hpp
+[96.562s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__type_support.cpp
+[96.563s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[96.563s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[96.563s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[96.563s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/sport_mode_state__type_support.cpp
+[96.563s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/audio_data__type_support.cpp
+[96.564s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/interface_config__type_support.cpp
+[96.564s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[96.564s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp
+[96.564s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_cpp.hpp
+[96.565s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+[96.566s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so" to ""
+[96.566s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+[96.567s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so" to ""
+[96.567s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/pythonpath.sh
+[96.568s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/pythonpath.dsv
+[96.568s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/__init__.py
+[96.631s] Compiling '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/__init__.py'...
+[96.641s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg
+[96.642s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_uwb_switch_s.c
+[96.642s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_uwb_state_s.c
+[96.642s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_cmd.py
+[96.642s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_time_spec_s.c
+[96.642s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_low_state_s.c
+[96.643s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_low_cmd.py
+[96.643s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_audio_data_s.c
+[96.643s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_imu_state_s.c
+[96.643s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_path_point.py
+[96.644s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_height_map.py
+[96.644s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_sport_mode_cmd.py
+[96.644s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_go2_front_video_data.py
+[96.644s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_req.py
+[96.644s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_cmds.py
+[96.645s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_sport_mode_state.py
+[96.645s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_uwb_state.py
+[96.645s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_low_cmd_s.c
+[96.645s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_audio_data.py
+[96.645s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_lidar_state.py
+[96.646s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_sport_mode_state_s.c
+[96.646s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_time_spec.py
+[96.646s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_interface_config.py
+[96.646s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_lidar_state_s.c
+[96.647s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_uwb_switch.py
+[96.647s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_res_s.c
+[96.647s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_bms_cmd_s.c
+[96.647s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_bms_state_s.c
+[96.647s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_wireless_controller_s.c
+[96.648s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_bms_state.py
+[96.648s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_state.py
+[96.648s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_sport_mode_cmd_s.c
+[96.648s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_low_state.py
+[96.648s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_bms_cmd.py
+[96.649s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_states_s.c
+[96.649s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_cmd_s.c
+[96.649s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_interface_config_s.c
+[96.649s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_error_s.c
+[96.649s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_req_s.c
+[96.650s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/__init__.py
+[96.650s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_res.py
+[96.650s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_error.py
+[96.650s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_wireless_controller.py
+[96.650s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_state_s.c
+[96.651s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_height_map_s.c
+[96.651s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_go2_front_video_data_s.c
+[96.651s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_states.py
+[96.651s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_motor_cmds_s.c
+[96.651s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_imu_state.py
+[96.652s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/msg/_path_point_s.c
+[96.652s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[96.653s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[96.654s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[96.655s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[96.655s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[96.656s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[96.656s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__python.so
+[96.657s] -- Set runtime path of "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/libunitree_go__python.so" to ""
+[96.657s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/AudioData.idl
+[96.658s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.idl
+[96.658s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/BmsState.idl
+[96.658s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Error.idl
+[96.659s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.idl
+[96.659s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/HeightMap.idl
+[96.659s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/IMUState.idl
+[96.660s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.idl
+[96.660s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LidarState.idl
+[96.660s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LowCmd.idl
+[96.660s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LowState.idl
+[96.661s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.idl
+[96.661s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.idl
+[96.661s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorState.idl
+[96.662s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorStates.idl
+[96.662s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/PathPoint.idl
+[96.662s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Req.idl
+[96.663s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Res.idl
+[96.663s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.idl
+[96.663s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/SportModeState.idl
+[96.663s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.idl
+[96.664s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/UwbState.idl
+[96.664s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.idl
+[96.664s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/WirelessController.idl
+[96.665s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/AudioData.msg
+[96.665s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.msg
+[96.665s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/BmsState.msg
+[96.666s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Error.msg
+[96.666s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.msg
+[96.666s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/HeightMap.msg
+[96.667s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/IMUState.msg
+[96.667s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.msg
+[96.667s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LidarState.msg
+[96.667s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LowCmd.msg
+[96.668s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/LowState.msg
+[96.668s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.msg
+[96.668s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.msg
+[96.669s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorState.msg
+[96.669s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/MotorStates.msg
+[96.669s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/PathPoint.msg
+[96.669s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Req.msg
+[96.670s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/Res.msg
+[96.670s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.msg
+[96.670s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/SportModeState.msg
+[96.671s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.msg
+[96.671s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/UwbState.msg
+[96.671s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.msg
+[96.672s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/WirelessController.msg
+[96.672s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext
+[96.672s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/InterfaceConfig_.idl
+[96.672s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmd_.idl
+[96.673s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbSwitch_.idl
+[96.673s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowState_.idl
+[96.673s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/TimeSpec_.idl
+[96.673s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeState_.idl
+[96.673s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/WirelessController_.idl
+[96.674s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Req_.idl
+[96.674s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbState_.idl
+[96.674s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsState_.idl
+[96.674s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorState_.idl
+[96.674s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowCmd_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/HeightMap_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeCmd_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/IMUState_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorStates_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/PathPoint_.idl
+[96.675s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmds_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsCmd_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/AudioData_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Go2FrontVideoData_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LidarState_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Error_.idl
+[96.676s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Res_.idl
+[96.677s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/ament_index/resource_index/package_run_dependencies/unitree_go
+[96.677s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/ament_index/resource_index/parent_prefix_path/unitree_go
+[96.678s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.sh
+[96.678s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.dsv
+[96.678s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/path.sh
+[96.679s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/environment/path.dsv
+[96.679s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/local_setup.bash
+[96.679s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/local_setup.sh
+[96.680s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/local_setup.zsh
+[96.680s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/local_setup.dsv
+[96.680s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.dsv
+[96.681s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/ament_index/resource_index/packages/unitree_go
+[96.681s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_generator_cExport.cmake
+[96.681s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_generator_cExport-noconfig.cmake
+[96.682s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport.cmake
+[96.682s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[96.683s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport.cmake
+[96.683s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport-noconfig.cmake
+[96.683s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_generator_cppExport.cmake
+[96.684s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport.cmake
+[96.684s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[96.685s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport.cmake
+[96.685s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport-noconfig.cmake
+[96.685s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake-extras.cmake
+[96.685s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_dependencies-extras.cmake
+[96.686s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_libraries-extras.cmake
+[96.686s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_targets-extras.cmake
+[96.686s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_include_directories-extras.cmake
+[96.687s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[96.687s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[96.687s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig.cmake
+[96.688s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig-version.cmake
+[96.688s] -- Installing: /home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.xml
+[96.694s] Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go

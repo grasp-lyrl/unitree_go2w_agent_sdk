@@ -1,6 +1,6 @@
 # Unitree Go Robot ROS Packages Installation Guide
 
-This repository contains comprehensive ROS packages for the Unitree Go robot system, supporting both ROS1 and ROS2 environments. The system includes SLAM, navigation, object detection, robotic arm control, and camera integration capabilities.
+This repository contains comprehensive ROS packages for the Unitree Go robot system, supporting both ROS1 and ROS2 environments, directly running on the Jetson board. The system includes SLAM, navigation, object detection, robotic arm control, and camera integration capabilities.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -18,7 +18,8 @@ This repository contains comprehensive ROS packages for the Unitree Go robot sys
 
 This repository provides a complete robotics software stack for the Unitree Go robot, featuring:
 
-- **SLAM & Navigation**: Faster-LIO for high-performance LiDAR-inertial odometry
+- **SLAM**: Faster-LIO for high-performance LiDAR-inertial odometry
+- **Navigation**: Nav2 with velocity commands
 - **Object Detection**: YOLOv8/YOLOv9 with 3D capabilities
 - **Robotic Arm Control**: Piper arm with CAN-based communication
 - **Camera Integration**: Intel RealSense RGB-D cameras
@@ -27,25 +28,19 @@ This repository provides a complete robotics software stack for the Unitree Go r
 ## System Requirements
 
 ### Hardware Requirements
-- **Robot Platform**: Unitree Go robot
-- **Computing Platform**: NVIDIA Jetson (recommended) or x86_64 system
-- **Sensors**: 
+- **Robot Platform**: Unitree Go2/Go2W robot
+- **Computing Platform**: NVIDIA Jetson (Unitree expansion dock)
+- **Additional Sensors**: 
   - LiDAR (Hesai, Velodyne, Ouster, or Livox)
-  - Intel RealSense camera (D400 series or T265)
-  - IMU/Gyroscope
+  - Intel RealSense camera
+  - IMU/Gyroscope from body
 - **Interfaces**: CAN interface for robotic arm control
 
 ### Software Requirements
 
-#### ROS1 Environment
-- **OS**: Ubuntu 18.04 (ROS Melodic) or Ubuntu 20.04 (ROS Noetic)
-- **ROS**: ROS Melodic or ROS Noetic
-- **Compiler**: GCC 9+ (for Ubuntu 18.04)
-
-#### ROS2 Environment
-- **OS**: Ubuntu 20.04 (ROS2 Foxy) or Ubuntu 22.04 (ROS2 Humble)
-- **ROS**: ROS2 Foxy or ROS2 Humble
-- **CUDA**: For YOLO object detection acceleration
+- ROS Noetic
+- ROS2 foxy
+- Python 3.8
 
 ## Quick Start
 
@@ -299,7 +294,131 @@ chmod +x unitree_ros2/setup_env.sh
 
 ## Usage Examples
 
-### ROS1 Usage
+### Unified Launch System (Recommended)
+
+The **unified launch script** (`launch_ros.py`) provides a single-command solution to start all ROS1 and ROS2 components with proper sequencing and ROS bridge integration.
+
+#### Quick Start
+
+```bash
+# Launch with default configuration
+python3 launch_ros.py
+
+# Launch with custom configuration file
+python3 launch_ros.py robot_config.yaml
+
+# Cleanup all ROS processes
+python3 launch_ros.py --cleanup
+```
+
+#### Configuration
+
+Create or edit `robot_config.yaml` to customize which components to launch:
+
+```yaml
+# Core Infrastructure (always required)
+core_infrastructure:
+  ros1_core: true
+  ros_bridge: true
+
+# Camera Configuration
+realsense:
+  enabled: true
+
+# YOLO Object Detection
+yolo:
+  enabled: false
+  workspace: /home/unitree/yolo_ws
+  launch_file: yolov9.launch.py
+  model_weights: /path/to/yolov9c.pt
+  input_image_topic: /camera/color/image_raw
+  device: cuda:0
+  image_reliability: 2
+  threshold: 0.5
+
+# Robotic Arm Module
+arm_module:
+  enabled: false
+
+# Hardware Drivers
+lidar_driver:
+  enabled: true
+  driver: hesai_ros_driver_node
+
+# SLAM Configuration
+slam:
+  enabled: true
+  algorithm: faster_lio
+  launch_file: mapping_hesai.launch
+  rviz: false
+
+# Navigation Configuration
+navigation:
+  enabled: true
+  params_file: src/nav2_cloud_bringup/launch/nav2_params_online_fasterlio.yaml
+
+# Message Converters
+message_converters:
+  imu_converter: true
+  tf_publishers: true
+
+# Launch Delays (seconds)
+delays:
+  ros_bridge: 3
+  ros2_systems: 5
+  imu_converter: 2
+  tf_publishers: 1
+  joint_relay: 1
+  lidar_driver: 2
+  slam: 3
+  navigation: 5
+
+# Log Filtering
+log_filtering:
+  enabled: true
+  suppress_verbose_logs: true
+  suppress_timestamps: true
+```
+
+#### Features
+
+- **🌉 ROS Bridge Integration**: Automatic bidirectional communication between ROS1 and ROS2
+- **⚙️ Configurable Components**: Enable/disable components via YAML configuration
+- **🔄 Proper Sequencing**: Components start in the correct order with configurable delays
+- **📊 Process Management**: Automatic process monitoring and graceful shutdown
+- **🧹 Log Filtering**: Optional filtering of verbose logs for cleaner output
+- **🛑 Clean Shutdown**: Press Ctrl+C to gracefully stop all processes
+
+#### Launch Sequence
+
+The system starts components in this order:
+
+1. **ROS1 Core** (`roscore`) - Immediate
+2. **ROS Bridge** (`ros1_bridge dynamic_bridge --bridge-all-topics`) - +3 seconds
+3. **RealSense Camera** (if enabled) - +5 seconds
+4. **IMU Converter** - +2 seconds
+5. **TF Publishers** - +1 second
+6. **Arm Module** (if enabled) - +1 second
+7. **LiDAR Driver** - +2 seconds
+8. **SLAM (Faster-LIO)** - +3 seconds
+9. **Navigation (Nav2)** - +5 seconds
+
+#### System Monitoring
+
+```bash
+# Monitor ROS1 topics
+rostopic list
+rostopic echo /scan
+
+# Monitor ROS2 topics
+ros2 topic list
+ros2 topic echo /map
+
+# Check ROS bridge topics
+ros2 topic list | grep bridge
+```
+
+### Manual ROS1 Usage
 
 #### SLAM with Faster-LIO
 
@@ -340,13 +459,13 @@ velocity: [0,0,0,0,0,0,10]
 effort: [0,0,0,0,0,0,0.5]"
 ```
 
-### ROS2 Usage
+### Manual ROS2 Usage
 
 #### Navigation System
 
 ```bash
 # Source environment
-source unitree_ros2/setup_env.sh
+source unitree_ros2/setup.sh
 
 # Launch navigation
 ros2 launch nav2_cloud_bringup pointcloud_navigation_launch.py

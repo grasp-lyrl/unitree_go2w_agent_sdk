@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o"
+  "CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o"
+  "libunitree_hg__rosidl_typesupport_introspection_cpp.pdb"
+  "libunitree_hg__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

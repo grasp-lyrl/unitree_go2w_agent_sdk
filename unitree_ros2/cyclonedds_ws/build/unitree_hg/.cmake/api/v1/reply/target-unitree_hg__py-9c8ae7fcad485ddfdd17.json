@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/unitree_hg__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "unitree_hg::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "unitree_hg__py::@7c5e60903780e3debc97",
+	"name" : "unitree_hg__py",
+	"paths" : 
+	{
+		"build" : "unitree_hg__py",
+		"source" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/unitree_hg__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/unitree_hg__py/CMakeFiles/unitree_hg__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/unitree_hg__py/CMakeFiles/unitree_hg__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

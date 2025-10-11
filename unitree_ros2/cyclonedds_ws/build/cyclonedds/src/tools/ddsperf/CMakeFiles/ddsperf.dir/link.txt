@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG   CMakeFiles/ddsperf.dir/ddsperf.c.o CMakeFiles/ddsperf.dir/cputime.c.o CMakeFiles/ddsperf.dir/netload.c.o CMakeFiles/ddsperf.dir/async_listener.c.o CMakeFiles/ddsperf.dir/ddsperf_types.c.o  -o ../../../bin/ddsperf  -Wl,-rpath,/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds/lib: ../../../lib/libddsc.so.0.10.5 

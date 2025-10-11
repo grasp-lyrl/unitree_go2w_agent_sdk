@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds

@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"src/tools/_confgen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "_confgen::@86bd84294e37de3b26dd",
+	"name" : "_confgen",
+	"paths" : 
+	{
+		"build" : "src/tools/_confgen",
+		"source" : "src/tools/_confgen"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

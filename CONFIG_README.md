@@ -1,4 +1,4 @@
-# Unitree Go Robot Configuration System
+# Running ROS2 Software System on Jetson
 
 This document explains how to use the new configuration system for the Unitree Go Robot launcher.
 
@@ -17,10 +17,7 @@ The main configuration file is `robot_config.yaml`. You can also use custom conf
 python3 launch_ros.py
 
 # Use custom configuration file
-python3 launch_ros.py my_custom_config.yaml
-
-# Use verbose configuration (shows all logs)
-python3 launch_ros.py robot_config_verbose.yaml
+python3 launch_ros.py robot_config.yaml
 ```
 
 ## Cleanup Commands

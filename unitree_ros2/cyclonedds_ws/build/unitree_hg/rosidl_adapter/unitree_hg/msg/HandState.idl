@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_hg/msg/HandState.msg
+// generated code does not contain a copyright notice
+
+#include "unitree_hg/msg/IMUState.idl"
+#include "unitree_hg/msg/MotorState.idl"
+#include "unitree_hg/msg/PressSensorState.idl"
+
+module unitree_hg {
+  module msg {
+    typedef uint32 uint32__2[2];
+    struct HandState {
+      sequence<unitree_hg::msg::MotorState> motor_state;
+
+      unitree_hg::msg::IMUState imu_state;
+
+      sequence<unitree_hg::msg::PressSensorState> press_sensor_state;
+
+      float power_v;
+
+      float power_a;
+
+      uint32__2 reserve;
+    };
+  };
+};

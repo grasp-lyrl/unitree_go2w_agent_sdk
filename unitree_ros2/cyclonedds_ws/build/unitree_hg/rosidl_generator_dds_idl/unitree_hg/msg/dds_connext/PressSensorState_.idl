@@ -1,0 +1,32 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from unitree_hg:msg/PressSensorState.idl
+// generated code does not contain a copyright notice
+
+#ifndef __unitree_hg__msg__press_sensor_state__idl__
+#define __unitree_hg__msg__press_sensor_state__idl__
+
+
+module unitree_hg {
+
+module msg {
+
+module dds_ {
+
+
+struct PressSensorState_ {
+float pressure_[12];
+
+float temperature_[12];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module unitree_hg
+
+
+#endif  // __unitree_hg__msg__press_sensor_state__idl__

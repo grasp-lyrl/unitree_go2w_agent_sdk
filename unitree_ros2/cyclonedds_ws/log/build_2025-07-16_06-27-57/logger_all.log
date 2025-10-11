@@ -1,0 +1,493 @@
+[0.469s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.470s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff96b7b100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff96b7b100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96ac3bb0>)
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.572s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/unitree/unitree_ros2/cyclonedds_ws'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyclonedds) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cyclonedds' with type 'ros.cmake' and name 'cyclonedds'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_cyclonedds/rmw_cyclonedds_cpp) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_cyclonedds/rmw_cyclonedds_cpp' with type 'ros.ament_cmake' and name 'rmw_cyclonedds_cpp'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_api) by extension 'ros'
+[0.629s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_go) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree/unitree_hg) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.673s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cyclonedds' from colcon.pkg: {'cmake-args': ['-DBUILD_IDLC=AUTO']}
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/foxy
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:overwrite package 'cyclonedds' build argument 'cmake_args' from package metadata with '['-DBUILD_IDLC=AUTO']' (before: 'None')
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_first' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_force_configure' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'ament_cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.808s] DEBUG:colcon.colcon_core.verb:Building package 'cyclonedds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_IDLC=AUTO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds', 'symlink_install': False, 'test_result_base': None}
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.810s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', 'symlink_install': False, 'test_result_base': None}
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.811s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', 'symlink_install': False, 'test_result_base': None}
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_first' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.812s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_hg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', 'symlink_install': False, 'test_result_base': None}
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_target' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'rmw_cyclonedds_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.814s] DEBUG:colcon.colcon_core.verb:Building package 'rmw_cyclonedds_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp', 'merge_install': False, 'path': '/home/unitree/unitree_ros2/cyclonedds_ws/src/rmw_cyclonedds/rmw_cyclonedds_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.814s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.817s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds' with build type 'cmake'
+[0.818s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds'
+[0.822s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.833s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api'
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with build type 'ament_cmake'
+[0.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg'
+[0.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j4 -l4
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.sh'
+[1.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path_multiarch')
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.sh'
+[1.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyclonedds)
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds' for CMake module files
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'cmake_prefix_path')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib'
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'ld_library_path_lib')
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.sh'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin'
+[1.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'path')
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.dsv'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/path.sh'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig/cyclonedds.pc'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/python3.8/site-packages'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin'
+[1.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pythonscriptspath')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.sh'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.bash'
+[1.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/cyclonedds/package.zsh'
+[1.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/colcon-core/packages/cyclonedds)
+[1.908s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/rmw_cyclonedds/rmw_cyclonedds_cpp' with build type 'ament_cmake'
+[1.908s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/unitree_ros2/cyclonedds_ws/src/rmw_cyclonedds/rmw_cyclonedds_cpp'
+[1.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/rmw_cyclonedds/rmw_cyclonedds_cpp -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp
+[4.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp' returned '0': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/rmw_cyclonedds/rmw_cyclonedds_cpp -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp
+[4.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp -- -j4 -l4
+[6.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api
+[6.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api -- -j4 -l4
+[6.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg
+[6.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg -- -j4 -l4
+[7.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go
+[7.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go -- -j4 -l4
+[34.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp' returned '0': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp -- -j4 -l4
+[34.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp
+[34.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_cyclonedds_cpp)
+[34.396s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp' for CMake module files
+[34.397s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp' for CMake config files
+[34.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_cyclonedds_cpp', 'cmake_prefix_path')
+[34.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.ps1'
+[34.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.dsv'
+[34.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.sh'
+[34.401s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib'
+[34.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_cyclonedds_cpp', 'ld_library_path_lib')
+[34.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.ps1'
+[34.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp' returned '0': CMAKE_PREFIX_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:${PATH} PKG_CONFIG_PATH=/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp
+[34.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.dsv'
+[34.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.sh'
+[34.408s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/bin'
+[34.408s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib/pkgconfig/rmw_cyclonedds_cpp.pc'
+[34.409s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib/python3.8/site-packages'
+[34.409s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/bin'
+[34.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.ps1'
+[34.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.dsv'
+[34.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.sh'
+[34.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.bash'
+[34.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.zsh'
+[34.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/colcon-core/packages/rmw_cyclonedds_cpp)
+[34.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_cyclonedds_cpp)
+[34.418s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp' for CMake module files
+[34.419s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp' for CMake config files
+[34.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_cyclonedds_cpp', 'cmake_prefix_path')
+[34.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.ps1'
+[34.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.dsv'
+[34.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/cmake_prefix_path.sh'
+[34.425s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib'
+[34.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_cyclonedds_cpp', 'ld_library_path_lib')
+[34.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.ps1'
+[34.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.dsv'
+[34.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/hook/ld_library_path_lib.sh'
+[34.432s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/bin'
+[34.433s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib/pkgconfig/rmw_cyclonedds_cpp.pc'
+[34.433s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib/python3.8/site-packages'
+[34.433s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/bin'
+[34.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.ps1'
+[34.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.dsv'
+[34.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.sh'
+[34.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.bash'
+[34.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.zsh'
+[34.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/colcon-core/packages/rmw_cyclonedds_cpp)
+[47.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api -- -j4 -l4
+[47.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api
+[47.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[47.971s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api' for CMake module files
+[47.972s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api' for CMake config files
+[47.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[47.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[47.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[47.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[47.977s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib'
+[47.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[47.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[47.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api
+[47.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[47.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[47.981s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/bin'
+[47.981s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[47.981s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/python3.8/site-packages'
+[47.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'pythonpath')
+[47.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.ps1'
+[47.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.dsv'
+[47.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.sh'
+[47.984s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/bin'
+[47.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.ps1'
+[47.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.dsv'
+[47.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.sh'
+[47.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.bash'
+[47.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.zsh'
+[47.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[47.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[47.992s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api' for CMake module files
+[47.993s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api' for CMake config files
+[47.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[47.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[47.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[47.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[47.998s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib'
+[47.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[47.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[47.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[48.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[48.001s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/bin'
+[48.001s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[48.002s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/python3.8/site-packages'
+[48.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'pythonpath')
+[48.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.ps1'
+[48.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.dsv'
+[48.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/hook/pythonpath.sh'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/bin'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.ps1'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.dsv'
+[48.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.sh'
+[48.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.bash'
+[48.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/package.zsh'
+[48.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[59.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg -- -j4 -l4
+[59.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg
+[60.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[60.021s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg' for CMake module files
+[60.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg
+[60.023s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg' for CMake config files
+[60.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[60.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[60.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[60.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[60.028s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib'
+[60.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[60.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[60.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[60.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[60.031s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin'
+[60.031s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[60.032s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/python3.8/site-packages'
+[60.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'pythonpath')
+[60.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.ps1'
+[60.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.dsv'
+[60.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.sh'
+[60.035s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin'
+[60.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[60.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[60.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[60.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[60.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[60.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[60.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[60.044s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg' for CMake module files
+[60.045s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg' for CMake config files
+[60.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[60.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[60.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[60.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[60.050s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib'
+[60.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[60.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[60.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[60.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[60.053s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin'
+[60.053s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[60.054s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/python3.8/site-packages'
+[60.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'pythonpath')
+[60.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.ps1'
+[60.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.dsv'
+[60.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/hook/pythonpath.sh'
+[60.057s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin'
+[60.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[60.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[60.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[60.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[60.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[60.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[97.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go -- -j4 -l4
+[97.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go
+[97.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[97.538s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go' for CMake module files
+[97.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_go
+[97.540s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go' for CMake config files
+[97.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[97.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[97.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[97.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[97.545s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib'
+[97.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[97.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[97.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[97.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[97.548s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/bin'
+[97.548s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[97.549s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages'
+[97.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'pythonpath')
+[97.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.ps1'
+[97.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.dsv'
+[97.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.sh'
+[97.552s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/bin'
+[97.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.ps1'
+[97.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.dsv'
+[97.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.sh'
+[97.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.bash'
+[97.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.zsh'
+[97.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[97.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[97.560s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go' for CMake module files
+[97.561s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go' for CMake config files
+[97.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[97.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[97.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[97.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[97.565s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib'
+[97.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[97.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[97.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[97.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[97.568s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/bin'
+[97.568s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[97.569s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.8/site-packages'
+[97.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'pythonpath')
+[97.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.ps1'
+[97.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.dsv'
+[97.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/hook/pythonpath.sh'
+[97.572s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/bin'
+[97.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.ps1'
+[97.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.dsv'
+[97.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.sh'
+[97.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.bash'
+[97.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/package.zsh'
+[97.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[97.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[97.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[97.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[97.580s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[97.590s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[97.590s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[97.590s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[97.612s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[97.612s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[97.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.ps1'
+[97.615s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/unitree_ros2/cyclonedds_ws/install/_local_setup_util_ps1.py'
+[97.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.ps1'
+[97.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.sh'
+[97.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/unitree_ros2/cyclonedds_ws/install/_local_setup_util_sh.py'
+[97.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.sh'
+[97.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.bash'
+[97.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.bash'
+[97.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/unitree_ros2/cyclonedds_ws/install/local_setup.zsh'
+[97.627s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/unitree_ros2/cyclonedds_ws/install/setup.zsh'

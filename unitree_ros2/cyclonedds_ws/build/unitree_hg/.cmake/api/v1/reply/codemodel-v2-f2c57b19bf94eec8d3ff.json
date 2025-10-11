@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "unitree_hg__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg/unitree_hg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "unitree_hg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-480bfc48addf0dc9e5bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg-d35e80c9ac4fddb0e617.json",
+					"name" : "unitree_hg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__cpp-f29af14016544793b287.json",
+					"name" : "unitree_hg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__dds_connext_idl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__dds_connext_idl-aa73b3bdc3ad2ff8926c.json",
+					"name" : "unitree_hg__dds_connext_idl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unitree_hg__py::@7c5e60903780e3debc97",
+					"jsonFile" : "target-unitree_hg__py-9c8ae7fcad485ddfdd17.json",
+					"name" : "unitree_hg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__python-f437b33f012de950ceb2.json",
+					"name" : "unitree_hg__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_generator_c-a3cec809f3fd9c6caacf.json",
+					"name" : "unitree_hg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_c-63346bdd0b502f8db3f5.json",
+					"name" : "unitree_hg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_c__pyext-27dedb698af884d54993.json",
+					"name" : "unitree_hg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_cpp-c92be1f57bc0d193f80a.json",
+					"name" : "unitree_hg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_fastrtps_c-1528752e350cf7133f91.json",
+					"name" : "unitree_hg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_fastrtps_c__pyext-f526e3d800d3532ebbe3.json",
+					"name" : "unitree_hg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_fastrtps_cpp-0e9a06561080f5782dd0.json",
+					"name" : "unitree_hg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_introspection_c-6d327371efcb62464098.json",
+					"name" : "unitree_hg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_introspection_c__pyext-aa5d3d25e30d02b00655.json",
+					"name" : "unitree_hg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg__rosidl_typesupport_introspection_cpp-be534d3088345f46c9f4.json",
+					"name" : "unitree_hg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_hg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_hg_uninstall-e546767d6c41a406c46a.json",
+					"name" : "unitree_hg_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_hg",
+		"source" : "/home/unitree/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Setup unitree ros2 environment"
-export GEMINI_KEY='AIzaSyBP8ctJEwHanxQnO3hdPNWqBaNKAfqtrVA'
 source /opt/ros/foxy/setup.bash
 source /home/unitree/unitree_ros2/cyclonedds_ws/install/setup.bash
 source /home/unitree/unitree_ros2/install/setup.bash

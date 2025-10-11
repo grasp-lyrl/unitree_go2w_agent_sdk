@@ -1,0 +1,81 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"rosidl_generate_dds_interfaces"
+		],
+		"files" : 
+		[
+			"/opt/ros/foxy/share/rosidl_generator_dds_idl/cmake/rosidl_generate_dds_interfaces.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "unitree_api__dds_connext_idl::@6890427a1f51a3e7e1df",
+	"name" : "unitree_api__dds_connext_idl",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api/CMakeFiles/unitree_api__dds_connext_idl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api/CMakeFiles/unitree_api__dds_connext_idl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/unitree/unitree_ros2/cyclonedds_ws/build/unitree_api/rosidl_generator_dds_idl/unitree_api/msg/dds_connext/Request_.idl.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
