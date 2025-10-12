@@ -1,6 +1,12 @@
-# Unitree Go Robot ROS Packages Installation Guide
 
-This repository contains comprehensive ROS packages for the Unitree Go robot system, supporting both ROS1 and ROS2 environments, directly running on the Jetson board. The system includes SLAM, navigation, object detection, robotic arm control, and camera integration capabilities.
+<p align="center">
+  <img src="images/banner.png" alt="Unitree Go2W Agent SDK Banner" width="100%" />
+</p>
+
+# Unitree Go2W Agent SDK
+
+A unified, agent-friendly SDK for the Unitree Go2W quadruped robot that enables seamless integration of perception, planning, and control through a single API interface. Designed for LLM-based autonomous agents and embodied AI applications.
+For an example agent system, see [Maestro Project](https://maestro-robot.github.io)
 
 <p align="center">
   <img src="images/nav2.gif" alt="Navigation Planning" width="45%" />
@@ -13,6 +19,7 @@ This repository contains comprehensive ROS packages for the Unitree Go robot sys
 </p>
 
 ## Table of Contents
+- [Motivation](#motivation)
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -24,16 +31,26 @@ This repository contains comprehensive ROS packages for the Unitree Go robot sys
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 
+## Motivation
+
+While the Unitree Go2 has an unofficial SDK, the **Unitree Go2W** (wheeled variant with expanded hardware capabilities) has significantly fewer software drivers and integration tools available. This creates a major barrier for developers and researchers who want to leverage the full potential of the Go2W's advanced hardware—including its LiDAR, cameras, and robotic arm (purchased separately).
+
+**We took on the challenge of bridging this gap.** This SDK unifies all hardware components—**perception, planning, and control**—into a cohesive system that works through a **single, intuitive API interface**. By abstracting away the complexity of multi-ROS version coordination, sensor driver management, and message bridging, we've made it trivially easy for **LLM-based agents** and **autonomous AI systems** to command the robot dog on the fly.
+
+Whether you're building an embodied AI assistant, a mobile manipulation platform, or an autonomous exploration system, this SDK provides the foundation you need to focus on high-level reasoning and decision-making rather than low-level hardware integration.
+
 ## Overview
 
-This repository provides a complete robotics software stack for the Unitree Go robot, featuring:
+The Unitree Go2W Agent SDK provides a complete robotics software stack optimized for AI agent control:
 
-- **SLAM**: Faster-LIO for high-performance LiDAR-inertial odometry
-- **Navigation**: Nav2 with velocity commands
-- **Object Detection**: YOLOv8/YOLOv9 with 3D capabilities
-- **Robotic Arm Control**: Piper arm with CAN-based communication
-- **Camera Integration**: Intel RealSense RGB-D cameras
-- **Multi-Sensor Fusion**: LiDAR, IMU, camera, and depth sensors
+- **🤖 Agent-First Design**: Single unified API (`launch_ros.py`) for commanding all robot capabilities
+- **👁️ Perception**: Faster-LIO SLAM, YOLOv8/v9 object detection, Intel RealSense RGB-D integration
+- **🗺️ Planning**: Nav2 navigation stack with dynamic obstacle avoidance
+- **🦾 Control**: AgileX Piper robotic arm with gripper, velocity-based locomotion commands
+- **🔗 Multi-Sensor Fusion**: LiDAR, IMU, camera, and depth sensors working in harmony
+- **🌉 Seamless ROS1/ROS2 Bridge**: Transparent communication across ROS versions
+
+**Perfect for**: Embodied AI research, LLM-controlled robotics, autonomous mobile manipulation, human-robot interaction studies
 
 ![System Overview](images/system_overview.png)
 
