@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yifei/ws_polyrrt/devel/lib/python3/dist-packages",
+        "/home/yifei/ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yifei/ws_polyrrt/devel/lib/python3/dist-packages",
+        "/home/yifei/ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

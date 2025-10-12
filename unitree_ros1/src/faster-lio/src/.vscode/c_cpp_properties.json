@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yifei/ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/yifei/ws_polyrrt/devel/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/action_planner/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/state_machine/action_trackers/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/altro/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/coverage_utils/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/DecompROS/decomp_ros_utils/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/estimation/fla_ukf/include/**",
+        "/home/yifei/ws_polyrrt/src/polytope_planner/GCOPTER/gcopter/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/jps3d/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_ilqr_optimizer/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/kr_mav_controllers/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/kr_mav_manager/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_planning_msgs/kr_planning_rviz_plugins/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/kr_quadrotor_simulator/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/interfaces/kr_serial_interface/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/trackers/kr_trackers/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_mav_control/trackers/kr_trackers_manager/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/mapper/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/mav_comm/mav_msgs/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/mav_comm/mav_planning_msgs/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/mav_trajectory_generation/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/motion_capture_system/mocap_base/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/motion_capture_system/mocap_qualisys/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/motion_capture_system/mocap_vicon/include/**",
+        "/home/yifei/ws_polyrrt/src/polytope_planner/GCOPTER/map_gen/mockamap/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/mpl/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/motion_primitives/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/mrsl_quadrotor/mrsl_quadrotor_simulator/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/mrsl_quadrotor/mrsl_quadrotor_utils/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/msckf_vio/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/DoubleDescription/time_opt_trajs/plan_manage/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/ouster_example/ouster_client/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/ouster_example/ouster_gazebo_plugins/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/ouster_example/ouster_ros/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/ouster_example/ouster_viz/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/kr_param_map/param_env/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/DoubleDescription/time_opt_trajs/path_searching/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/state_machine/state_machine_core/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/autonomy_core/map_plan/traj_opt_ros/include/**",
+        "/home/yifei/ws/src/kr_autonomous_flight/DoubleDescription/traj_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
