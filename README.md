@@ -4,7 +4,7 @@ This repository contains comprehensive ROS packages for the Unitree Go robot sys
 
 <p align="center">
   <img src="images/nav2.gif" alt="Navigation Planning" width="45%" />
-  <img src="images/dog_demo_compressed.gif" alt="Maestro Demo on Mobile Manipulation" width="45%" />
+  <img src="images/dog_demo.gif" alt="Maestro Demo on Mobile Manipulation" width="45%" />
 </p>
 <p align="center">
   <em>Autonomous Navigation with Nav2</em>
