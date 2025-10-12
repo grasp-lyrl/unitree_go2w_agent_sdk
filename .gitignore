@@ -1,0 +1,121 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+env/
+
+# ROS1
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+
+# ROS2
+install/
+log/
+build/
+
+# Catkin
+.catkin_workspace
+.catkin_tools/
+
+# C++
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Backup files
+*~
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Log files
+*.log
+*.txt.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large binary files (use Git LFS if needed)
+*.bag
+*.pcap
+*.pcd
+*.ply
+*.stl
+*.dae
+
+# Model weights (use Git LFS if needed)
+*.pt
+*.pth
+*.onnx
+*.trt
+*.engine
+*.weights
+*.caffemodel
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# System files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+

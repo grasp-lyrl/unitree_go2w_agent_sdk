@@ -1,6 +1,0 @@
-Using temporary directory: /tmp/tmp1eplzlhl
-Error getting robot state: Failed to get robot state: Traceback (most recent call last):
-  File "/tmp/tmp1eplzlhl/get_state.py", line 9, in <module>
-    from vlm_hw.api.robot_api import RobotApi
-ModuleNotFoundError: No module named 'vlm_hw'
-

@@ -395,6 +395,13 @@ class UnitreeRobotLauncher:
                 delay=self.config['delays']['navigation'],
                 env_type="ros2"
             )
+
+            self.launch_component(
+                "Unitree-Nav2-Bridge",
+                f"cd {self.ros2_ws} && python3.8 src/nav2_cloud_bringup/nav2_cloud_bringup/unitree_nav2.py",
+                delay=2,
+                env_type="ros2"
+            )
         
         # Phase 6: YOLO Object Detection
         if self.config['yolo']['enabled']:

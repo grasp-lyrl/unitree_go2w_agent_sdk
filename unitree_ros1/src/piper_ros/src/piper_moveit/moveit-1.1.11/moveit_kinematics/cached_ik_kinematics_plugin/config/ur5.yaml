@@ -1,2 +1,0 @@
-manipulator:
-    kinematics_solver: ur_kinematics/UR5KinematicsPlugin

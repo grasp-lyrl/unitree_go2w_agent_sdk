@@ -2,17 +2,27 @@
 
 This repository contains comprehensive ROS packages for the Unitree Go robot system, supporting both ROS1 and ROS2 environments, directly running on the Jetson board. The system includes SLAM, navigation, object detection, robotic arm control, and camera integration capabilities.
 
+<p align="center">
+  <img src="images/nav2.gif" alt="Navigation Planning" width="45%" />
+  <img src="images/dog_demo_compressed.gif" alt="Maestro Demo on Mobile Manipulation" width="45%" />
+</p>
+<p align="center">
+  <em>Autonomous Navigation with Nav2</em>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Maestro Demo on Mobile Manipulation</em>
+</p>
+
 ## Table of Contents
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
 - [ROS1 Installation](#ros1-installation)
 - [ROS2 Installation](#ros2-installation)
+- [RViz Visualization](#rviz-visualization)
 - [Package Overview](#package-overview)
 - [Usage Examples](#usage-examples)
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
-- [Advanced Usage](#advanced-usage)
 
 ## Overview
 
@@ -24,6 +34,8 @@ This repository provides a complete robotics software stack for the Unitree Go r
 - **Robotic Arm Control**: Piper arm with CAN-based communication
 - **Camera Integration**: Intel RealSense RGB-D cameras
 - **Multi-Sensor Fusion**: LiDAR, IMU, camera, and depth sensors
+
+![System Overview](images/system_overview.png)
 
 ## System Requirements
 
@@ -42,170 +54,69 @@ This repository provides a complete robotics software stack for the Unitree Go r
 - ROS2 foxy
 - Python 3.8
 
-## Quick Start
-
-### Choose Your ROS Version
+## Installation
 
 ```bash
 # Clone the repository
-git clone <repository-url> unitree_go_jetson
+git clone https://github.com/Selina22/unitree_go_jetson.git
 cd unitree_go_jetson
-
-# For ROS1 (Ubuntu 18.04/20.04)
-cd unitree_ros1
-source /opt/ros/noetic/setup.bash  # or melodic
-catkin build
-source devel/setup.bash
-
-# For ROS2 (Ubuntu 20.04/22.04)
-cd unitree_ros2
-source /opt/ros/foxy/setup.bash  # or humble
-colcon build --symlink-install
-source install/setup.bash
 ```
 
-## ROS1 Installation
-
-### 1. System Dependencies
-
+### Python dependencies
 ```bash
-# Update package lists
 sudo apt update
-
-# Install ROS1 dependencies
-sudo apt install -y \
-    ros-$ROS_DISTRO-catkin \
-    ros-$ROS_DISTRO-geometry-msgs \
-    ros-$ROS_DISTRO-nav-msgs \
-    ros-$ROS_DISTRO-sensor-msgs \
-    ros-$ROS_DISTRO-std-msgs \
-    ros-$ROS_DISTRO-tf \
-    ros-$ROS_DISTRO-pcl-ros \
-    ros-$ROS_DISTRO-message-generation \
-    ros-$ROS_DISTRO-message-runtime \
-    ros-$ROS_DISTRO-actionlib \
-    ros-$ROS_DISTRO-actionlib-msgs \
-    ros-$ROS_DISTRO-control-msgs \
-    ros-$ROS_DISTRO-trajectory-msgs
-
-# Install Faster-LIO dependencies
-sudo apt install -y \
-    libgoogle-glog-dev \
-    libeigen3-dev \
-    libpcl-dev \
-    libyaml-cpp-dev
-
-# Install Piper robotic arm dependencies
-sudo apt install -y \
-    python3-can \
-    python3-wstool \
-    python3-catkin-tools \
-    python3-rosdep \
-    ros-$ROS_DISTRO-ruckig \
-    ros-$ROS_DISTRO-eigen-stl-containers \
-    ros-$ROS_DISTRO-geometric-shapes \
-    ros-$ROS_DISTRO-pybind11-catkin \
-    ros-$ROS_DISTRO-moveit-resources-panda-moveit-config \
-    ros-$ROS_DISTRO-ompl \
-    ros-$ROS_DISTRO-warehouse-ros \
-    ros-$ROS_DISTRO-eigenpy \
-    ros-$ROS_DISTRO-rosparam-shortcuts \
-    ros-$ROS_DISTRO-moveit-msgs \
-    ros-$ROS_DISTRO-srdfdom
-
-# Install Python dependencies
-pip3 install piper_sdk
+sudo apt install -y libxml2-dev libxslt1-dev zlib1g-dev python3-dev build-essential
+pip3 install -r requirements.txt
 ```
 
-### 2. Compiler Setup (Ubuntu 18.04)
+Install unitree sdk python from https://github.com/unitreerobotics/unitree_sdk2_python
 
-```bash
-# Upgrade GCC for C++17 support
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt update
-sudo apt install gcc-9 g++-9
-cd /usr/bin
-sudo rm gcc g++
-sudo ln -s gcc-9 gcc
-sudo ln -s g++-9 g++
-```
-
-### 3. Build ROS1 Workspace
+### ROS1 Installation (Hesai lidar, fasterlio)
 
 ```bash
 cd unitree_ros1
-
-# Initialize catkin workspace
-catkin init
-
-# Install dependencies
-rosdep update
-rosdep install --from-paths src --ignore-src -r -y
 
 # Build workspace
-catkin build
+catkin_make
 
 # Source workspace
 source devel/setup.bash
 ```
 
-## ROS2 Installation
+#### Hesai lidar
 
-### 1. System Dependencies
+Setup the device ip address in [config.yaml](/unitree_ros1/src/HesaiLidar_ROS_2.0/config/config.yaml) following the set up guide in [HesaiLidar_ROS_2.0](/unitree_ros1/src/HesaiLidar_ROS_2.0/README.md).
 
-```bash
-# Update package lists
-sudo apt update
-
-# Install ROS2 dependencies
-sudo apt install -y \
-    ros-$ROS_DISTRO-nav2-bringup \
-    ros-$ROS_DISTRO-nav2-costmap-2d \
-    ros-$ROS_DISTRO-nav2-controller \
-    ros-$ROS_DISTRO-nav2-planner \
-    ros-$ROS_DISTRO-nav2-bt-navigator \
-    ros-$ROS_DISTRO-nav2-waypoint-follower \
-    ros-$ROS_DISTRO-nav2-behavior-tree \
-    ros-$ROS_DISTRO-odom-to-tf \
-    ros-$ROS_DISTRO-rclpy \
-    ros-$ROS_DISTRO-sensor-msgs \
-    ros-$ROS_DISTRO-geometry-msgs \
-    ros-$ROS_DISTRO-std-msgs \
-    ros-$ROS_DISTRO-tf2 \
-    ros-$ROS_DISTRO-tf2-ros \
-    ros-$ROS_DISTRO-cv-bridge \
-    ros-$ROS_DISTRO-image-transport \
-    ros-$ROS_DISTRO-diagnostic-updater
-
-# Install RealSense dependencies
-sudo apt install -y \
-    librealsense2-dkms \
-    librealsense2-utils \
-    librealsense2-dev \
-    librealsense2-dbg
-
-# Install CycloneDDS
-sudo apt install -y \
-    ros-$ROS_DISTRO-rmw-cyclonedx-cpp \
-    ros-$ROS_DISTRO-cyclonedx-cpp
-
-# Install Python dependencies
-pip3 install -r unitree_ros2/src/yolo_ros/requirements.txt
-pip3 install python-can piper_sdk
-```
-
-### 2. CUDA Setup (for YOLO)
+### ROS2 Installation (nav2, piper, realsense, unitree message converter, yolo)
 
 ```bash
-# Install CUDA toolkit
-sudo apt install -y nvidia-cuda-toolkit
-
-# Verify installation
-nvcc --version
-nvidia-smi
+# First build the unitree ros2 cyclone dds workspace
+cd unitree_ros2/cyclonedds_ws/
+export LD_LIBRARY_PATH=/opt/ros/foxy/lib
+colcon build --packages-select cyclonedds #Compile cyclone-dds package
+# Then build the unitree messages under the same directory
+source /opt/ros/foxy/setup.bash
+colcon build
 ```
 
-### 3. Build ROS2 Workspace
+#### Environment Configuration
+
+Connect with the robot via the network interface in [setup.sh](/unitree_ros2/setup.sh)
+
+```bash
+#!/bin/bash
+echo "Setup unitree ros2 environment"
+source /opt/ros/foxy/setup.bash
+source $HOME/unitree_ros2/cyclonedds_ws/install/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export CYCLONEDDS_URI='<CycloneDDS><Domain><General><Interfaces>
+                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />
+                        </Interfaces></General></Domain></CycloneDDS>'
+```
+where "enp3s0" is the network interface name of unitree robot connected. Check your interface name from the output of ```ifconfig```
+
+
+#### Build ROS2 Workspace
 
 ```bash
 cd unitree_ros2
@@ -214,38 +125,49 @@ cd unitree_ros2
 source /opt/ros/$ROS_DISTRO/setup.bash
 
 # Build CycloneDDS workspace
-cd cyclonedx_ws
-colcon build --symlink-install
-source install/setup.bash
-cd ..
+colcon build --packages-select nav2_cloud_bringup piper piper_msgs realsense2_camera_msgs yolov8_msgs yolov8_ros
 
-# Build main workspace
-rosdep update
-rosdep install --from-paths src --ignore-src -r -y
-colcon build --symlink-install
-source install/setup.bash
+source setup.sh
 ```
 
-### 4. Environment Configuration
+## RViz Visualization
 
-Create setup script:
+After launching the robot system with the unified launch script, you can visualize all sensor data, navigation, and planning in RViz2.
+
+![RViz Visualization](images/rviz_view.png)
+*RViz2 showing real-time navigation with LiDAR point clouds, costmaps, planned paths, and RealSense camera feed*
+
+### Launch RViz2
 
 ```bash
-cat > unitree_ros2/setup_env.sh << 'EOF'
-#!/bin/bash
-echo "Setup unitree ros2 environment"
-export GEMINI_KEY='AIzaSyBP8ctJEwHanxQnO3hdPNWqBaNKAfqtrVA'
-source /opt/ros/foxy/setup.bash
-source ~/unitree_go_jetson/unitree_ros2/cyclonedx_ws/install/setup.bash
-source ~/unitree_go_jetson/unitree_ros2/install/setup.bash
-export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp
-export CYCLONEDX_URI='<CycloneDDS><Domain><General><Interfaces>
-                            <NetworkInterface name="eth0" priority="default" multicast="default" />
-                            </Interfaces></General><Discovery>
-                        </Discovery></Domain></CycloneDDS>'
-EOF
+# Make sure ROS2 environment is sourced
+cd unitree_ros2
+source setup.sh
 
-chmod +x unitree_ros2/setup_env.sh
+# Launch RViz2 with the default navigation configuration
+rviz2 -d ./src/nav2_cloud_bringup/nav2_default_view.rviz
+```
+
+### Sending Navigation Goals
+
+#### Method 1: Using RViz2 (GUI)
+1. Click the **"2D Nav Goal"** button in the RViz toolbar
+2. Click on the map where you want the robot to go
+3. Drag to set the desired orientation
+4. Release to send the goal
+
+#### Method 2: Using Command Line
+```bash
+# Send a navigation goal via command line
+ros2 topic pub --once /goal_pose geometry_msgs/PoseStamped "{
+  header: {
+    frame_id: 'odom'
+  },
+  pose: {
+    position: {x: 2.0, y: 1.0, z: 0.0},
+    orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  }
+}"
 ```
 
 ## Package Overview
@@ -418,115 +340,9 @@ ros2 topic echo /map
 ros2 topic list | grep bridge
 ```
 
-### Manual ROS1 Usage
-
-#### SLAM with Faster-LIO
-
-```bash
-# Source environment
-source unitree_ros1/devel/setup.bash
-
-# Launch SLAM with different LiDAR types
-roslaunch faster_lio mapping_hesai.launch    # Hesai LiDAR
-roslaunch faster_lio mapping_velodyne.launch   # Velodyne LiDAR
-roslaunch faster_lio mapping_avia.launch      # Livox Avia
-
-# Offline processing
-./unitree_ros1/build/devel/lib/faster_lio/run_mapping_offline \
-    --bag_file /path/to/bag/file \
-    --config_file ./config/avia.yaml
-```
-
-#### Robotic Arm Control
-
-```bash
-# Setup CAN interface
-bash unitree_ros1/src/piper_ros/can_activate.sh can0 1000000
-
-# Launch arm control
-roslaunch piper start_single_piper.launch can_port:=can0 auto_enable:=true
-
-# Control commands
-rosservice call /enable_srv "enable_request: true"
-rostopic pub /joint_states sensor_msgs/JointState "
-header:
-  seq: 0
-  stamp: {secs: 0, nsecs: 0}
-  frame_id: ''
-name: ['']
-position: [0.2,0.2,-0.2,0.3,-0.2,0.5,0.01]
-velocity: [0,0,0,0,0,0,10]
-effort: [0,0,0,0,0,0,0.5]"
-```
-
-### Manual ROS2 Usage
-
-#### Navigation System
-
-```bash
-# Source environment
-source unitree_ros2/setup.sh
-
-# Launch navigation
-ros2 launch nav2_cloud_bringup pointcloud_navigation_launch.py
-
-# Launch with simulation
-ros2 launch nav2_cloud_bringup nav2_cloud_sim.launch.py
-```
-
-#### Object Detection
-
-```bash
-# Launch YOLOv8 detection
-ros2 launch yolov8_bringup yolov8.launch.py
-
-# 3D object detection
-ros2 launch yolov8_bringup yolov8_3d.launch.py
-
-# Custom model
-ros2 launch yolov8_bringup yolov8.launch.py model:=yolov8m-seg.pt
-```
-
-#### Camera Integration
-
-```bash
-# Launch RealSense camera
-ros2 launch realsense2_camera rs_launch.py
-
-# With specific configuration
-ros2 launch realsense2_camera rs_launch.py \
-    enable_color:=true \
-    enable_depth:=true \
-    enable_imu:=true
-```
-
 ## Configuration
 
-### Environment Variables
-
-#### ROS1 Configuration
-```bash
-# Add to ~/.bashrc
-echo "source ~/unitree_go_jetson/unitree_ros1/devel/setup.bash" >> ~/.bashrc
-```
-
-#### ROS2 Configuration
-```bash
-# Network configuration
-export ROS_DOMAIN_ID=0
-export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp
-
-# CycloneDDS configuration
-export CYCLONEDX_URI='<CycloneDDS><Domain><General><Interfaces>
-                            <NetworkInterface name="eth0" priority="default" multicast="default" />
-                            </Interfaces></General><Discovery>
-                        </Discovery></Domain></CycloneDDS>'
-
-# Gemini API key (for AI features)
-export GEMINI_KEY='your_gemini_api_key_here'
-```
-
-### Hardware Configuration
+### Piper Arm Hardware Configuration
 
 #### CAN Interface Setup
 ```bash
@@ -538,197 +354,15 @@ bash find_all_can_port.sh
 bash can_activate.sh can_piper 1000000 "1-2:1.0"
 ```
 
-#### Camera Permissions
-```bash
-# RealSense camera permissions
-sudo chmod 666 /dev/bus/usb/$(lsusb | grep -i intel | awk '{print $2"/"$4}' | sed 's/://')
-```
-
 ## Troubleshooting
 
-### Common Issues
+### Jeton Board Performance Optimization
 
-#### 1. Compilation Errors
-
-**ROS1 Faster-LIO compilation fails**:
 ```bash
-# For Ubuntu 18.04, use provided TBB library
-cd unitree_ros1/src/faster-lio/thirdparty
-tar -xvf tbb2018_20170726oss_lin.tgz
-cd ../../build
-cmake .. -DCUSTOM_TBB_DIR=`pwd`/../src/faster-lio/thirdparty/tbb2018_20170726oss
-```
-
-**ROS2 build fails**:
-```bash
-# Clean and rebuild
-rm -rf unitree_ros2/build/ unitree_ros2/install/ unitree_ros2/log/
-colcon build --symlink-install --event-handlers console_direct+
-```
-
-#### 2. Hardware Issues
-
-**CAN device not found**:
-```bash
-# Check CAN devices
-bash find_all_can_port.sh
-ifconfig | grep can
-
-# Verify CAN activation
-bash can_activate.sh can0 1000000
-```
-
-**Camera not detected**:
-```bash
-# Test with RealSense tools
-realsense-viewer
-
-# Check camera info
-ros2 topic echo /camera/color/camera_info
-```
-
-**CUDA/YOLO issues**:
-```bash
-# Verify CUDA installation
-nvidia-smi
-nvcc --version
-
-# Test PyTorch CUDA support
-python3 -c "import torch; print(torch.cuda.is_available())"
-```
-
-#### 3. Communication Issues
-
-**ROS2 nodes cannot communicate**:
-```bash
-# Check DDS implementation
-echo $RMW_IMPLEMENTATION
-
-# Verify network configuration
-export RMW_IMPLEMENTATION=rmw_cyclonedx_cpp
-```
-
-**MoveIt compilation issues**:
-```bash
-# Install official MoveIt
-sudo apt install ros-$ROS_DISTRO-moveit
-
-# Remove problematic directory
-rm -rf unitree_ros1/src/piper_ros/src/piper_moveit/moveit-1.1.11
-```
-
-### Performance Optimization
-
-#### System Optimization
-```bash
-# Set CPU governor to performance
-echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-
-# Increase network buffer sizes
-sudo sysctl -w net.core.rmem_max=16777216
-sudo sysctl -w net.core.wmem_max=16777216
-```
-
-#### YOLO Performance
-```bash
-# Use smaller model for faster inference
-ros2 launch yolov8_bringup yolov8.launch.py model:=yolov8n.pt
-
-# Adjust detection threshold
-ros2 launch yolov8_bringup yolov8.launch.py threshold:=0.3
-```
-
-## Advanced Usage
-
-### Multi-Robot Systems
-
-#### ROS2 Multi-Robot Setup
-```bash
-# Robot 1
-export ROS_DOMAIN_ID=1
-ros2 launch nav2_cloud_bringup pointcloud_navigation_launch.py
-
-# Robot 2
-export ROS_DOMAIN_ID=2
-ros2 launch nav2_cloud_bringup pointcloud_navigation_launch.py
-```
-
-### Custom Launch Files
-
-#### Combined System Launch
-```python
-# custom_robot.launch.py
-from launch import LaunchDescription
-from launch_ros.actions import Node
-
-def generate_launch_description():
-    return LaunchDescription([
-        # YOLO detection
-        Node(
-            package='yolov8_ros',
-            executable='yolov8_node',
-            name='yolov8_node'
-        ),
-        
-        # RealSense camera
-        Node(
-            package='realsense2_camera',
-            executable='realsense2_camera_node',
-            name='realsense_camera'
-        ),
-        
-        # Navigation
-        Node(
-            package='nav2_cloud_bringup',
-            executable='unitree_nav2.py',
-            name='nav2_node'
-        )
-    ])
-```
-
-### Integration Examples
-
-#### Complete Robot Stack
-```bash
-# Terminal 1: SLAM
-source unitree_ros1/devel/setup.bash
-roslaunch faster_lio mapping_hesai.launch
-
-# Terminal 2: Navigation
-source unitree_ros2/setup_env.sh
-ros2 launch nav2_cloud_bringup pointcloud_navigation_launch.py
-
-# Terminal 3: Object Detection
-ros2 launch yolov8_bringup yolov8_3d.launch.py
-
-# Terminal 4: Robotic Arm
-ros2 run piper_ros piper_ctrl_single_node.py --ros-args -p can_port:=can0
-```
-
-## File Structure
-
-```
-unitree_go_jetson/
-├── unitree_ros1/                 # ROS1 packages
-│   ├── src/
-│   │   ├── faster-lio/          # SLAM system
-│   │   ├── HesaiLidar_ROS_2.0/  # LiDAR driver
-│   │   └── piper_ros/           # Robotic arm control
-│   ├── build/                   # Build directory
-│   ├── devel/                   # Development files
-│   └── README.md                # ROS1 specific documentation
-├── unitree_ros2/                # ROS2 packages
-│   ├── src/
-│   │   ├── nav2_cloud_bringup/  # Navigation system
-│   │   ├── yolo_ros/            # Object detection
-│   │   ├── realsense-ros/       # Camera integration
-│   │   ├── piper_ros/           # Robotic arm control
-│   │   └── unitree_msg_converter/ # Message conversion
-│   ├── cyclonedx_ws/            # CycloneDDS workspace
-│   ├── build/                   # Build directory
-│   ├── install/                 # Installation files
-│   └── README.md                # ROS2 specific documentation
-└── README.md                    # This unified guide
+sudo jetson_clocks
+sudo nvpmodel -m 0
+echo -1 | sudo tee /sys/module/usbcore/parameters/autosuspend
+for f in /sys/bus/usb/devices/*/power/control; do echo on | sudo tee "$f"; done"
 ```
 
 ## Support and Contributing

@@ -1,0 +1,44 @@
+# ============================================================
+# Unitree Go Robot ROS System - Python Dependencies
+# ============================================================
+
+# Core Python Libraries
+# ------------------------------------------------------------
+
+
+# Computer Vision & Image Processing
+# ------------------------------------------------------------
+
+
+# Robotics & ROS2
+# ------------------------------------------------------------
+
+# Robotic Arm Control
+# ------------------------------------------------------------
+piper-sdk>=1.0.0        # Piper robotic arm SDK
+python-can>=4.0.0       # CAN bus communication for robotic arm
+
+
+# Additional Dependencies
+# ------------------------------------------------------------
+# Note: Some dependencies are installed via ROS2 apt packages:
+# - ros-foxy-cv-bridge
+# - ros-foxy-sensor-msgs
+# - ros-foxy-geometry-msgs
+# - ros-foxy-std-msgs
+# - ros-foxy-nav2-*
+# - ros-foxy-tf2-ros
+#
+# These are listed above for reference but may conflict if installed via pip.
+# Install ROS2 packages via apt, not pip.
+
+# Platform-specific notes:
+# - CUDA support: Install PyTorch with CUDA support for GPU acceleration
+#   pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# - Intel RealSense: Install librealsense2 via apt
+#   sudo apt install ros-foxy-realsense2-camera
+#
+# - CAN interface: Requires system-level CAN utilities
+#   sudo apt install can-utils
+
