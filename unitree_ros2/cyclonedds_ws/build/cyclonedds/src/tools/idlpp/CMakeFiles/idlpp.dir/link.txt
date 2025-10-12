@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libidlpp.a  CMakeFiles/idlpp.dir/src/directive.c.o CMakeFiles/idlpp.dir/src/eval.c.o CMakeFiles/idlpp.dir/src/expand.c.o CMakeFiles/idlpp.dir/src/main.c.o CMakeFiles/idlpp.dir/src/mbchar.c.o CMakeFiles/idlpp.dir/src/support.c.o CMakeFiles/idlpp.dir/src/system.c.o
-/usr/bin/ranlib ../../../lib/libidlpp.a
