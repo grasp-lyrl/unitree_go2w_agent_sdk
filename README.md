@@ -3,11 +3,11 @@
   <img src="images/banner.png" alt="Unitree Go2W Agent SDK Banner" width="100%" />
 </p>
 
-# Unitree Go2W Agent SDK
+# Unitree Go2W AI-Agent SDK
 
 **Authors:** Selina Wan, Yifei Simon Shao, Pratik Chaudhari (selwan, yishao,pratikac) at seas.upenn.edu
 
-A unified, agent-friendly SDK for the Unitree Go2W quadruped robot that enables seamless integration of perception, planning, and control through a single API interface. Designed for LLM-based autonomous agents and embodied AI applications.
+A unified, AI-agent friendly SDK for the Unitree Go2W quadruped robot that enables seamless integration of perception, planning, and control through a single API interface. Designed for LLM-based autonomous agents and embodied AI applications.
 For an example agent system, see [Maestro Project](https://maestro-robot.github.io)
 
 <p align="center">
