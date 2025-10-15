@@ -7,7 +7,7 @@
 
 **Authors:** Selina Wan, Yifei Simon Shao, Pratik Chaudhari (selwan, yishao,pratikac) at seas.upenn.edu
 
-A unified, AI-agent friendly SDK for the Unitree Go2W quadruped robot that enables seamless integration of perception, planning, and control through a single API interface. Designed for LLM-based autonomous agents and embodied AI applications.
+A unified, AI-agent friendly SDK for the Unitree Go2W quadruped robot + AgileX Piper arm that enables seamless integration of perception, planning, and control through a single API interface. Designed for LLM-based autonomous agents and embodied AI applications.
 For an example agent system, see [Maestro Project](https://maestro-robot.github.io)
 
 <p align="center">
@@ -59,7 +59,8 @@ The Unitree Go2W Agent SDK provides a complete robotics software stack optimized
 ## System Requirements
 
 ### Hardware Requirements
-- **Robot Platform**: Unitree Go2/Go2W robot
+- **Robot Platform**: Unitree Go2/Go2W robot (edu version)
+- **Manipulator Arm**: AgileX Piper
 - **Computing Platform**: NVIDIA Jetson (Unitree expansion dock)
 - **Additional Sensors**: 
   - LiDAR (Hesai, Velodyne, Ouster, or Livox)
